@@ -15,7 +15,12 @@
       "ProjectGuid": "0f88303a-d56c-4132-95c5-9efc10df7c39",
       "DisplayName": "Algorithm",
       "ColorIndex": 2
+    },
+    "ceef4281-8b65-4209-bc6f-23864a6199db": {
+      "ProjectGuid": "ceef4281-8b65-4209-bc6f-23864a6199db",
+      "DisplayName": "AlgorithmTests",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

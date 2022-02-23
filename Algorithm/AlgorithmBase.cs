@@ -21,6 +21,5 @@ namespace Algorithm
         {
             Items.Sort(); 
         }
-
     }
 }
