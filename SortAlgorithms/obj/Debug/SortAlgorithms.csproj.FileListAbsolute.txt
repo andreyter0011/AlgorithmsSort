@@ -26,3 +26,4 @@ C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\Debug\SortAlgorith
 C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\Debug\SortAlgorithms.csproj.CopyComplete
 C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\Debug\SortAlgorithms.exe
 C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\Debug\SortAlgorithms.pdb
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\Debug\SortAlgorithms.VerticalProgressBar.resources

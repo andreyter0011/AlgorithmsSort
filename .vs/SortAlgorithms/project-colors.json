@@ -20,6 +20,11 @@
       "ProjectGuid": "ceef4281-8b65-4209-bc6f-23864a6199db",
       "DisplayName": "AlgorithmTests",
       "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 4
