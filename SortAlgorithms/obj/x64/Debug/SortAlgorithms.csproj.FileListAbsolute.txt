@@ -1,0 +1,15 @@
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\bin\x64\Debug\SortAlgorithms.exe.config
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\bin\x64\Debug\SortAlgorithms.exe
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\bin\x64\Debug\SortAlgorithms.pdb
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\bin\x64\Debug\Algorithm.dll
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\bin\x64\Debug\Algorithm.pdb
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.csproj.AssemblyReference.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.Form1.resources
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.Properties.Resources.resources
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.VerticalProgressBar.resources
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.csproj.GenerateResource.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.csproj.CopyComplete
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.exe
+C:\Users\Andrey\Pet-Project\SortAlgorithms\SortAlgorithms\obj\x64\Debug\SortAlgorithms.pdb

@@ -1,0 +1,6 @@
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\bin\x64\Debug\Algorithm.dll
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\bin\x64\Debug\Algorithm.pdb
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\obj\x64\Debug\Algorithm.csproj.AssemblyReference.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\obj\x64\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\obj\x64\Debug\Algorithm.dll
+C:\Users\Andrey\Pet-Project\SortAlgorithms\Algorithm\obj\x64\Debug\Algorithm.pdb

@@ -37,7 +37,7 @@
             this.FillButton = new System.Windows.Forms.Button();
             this.FillTextBox = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BubbleSort = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -123,22 +123,22 @@
             this.panel3.Size = new System.Drawing.Size(447, 140);
             this.panel3.TabIndex = 3;
             // 
-            // button1
+            // BubbleSort
             // 
-            this.button1.Location = new System.Drawing.Point(0, 146);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "BubbleSort";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BubbleSort.Location = new System.Drawing.Point(0, 146);
+            this.BubbleSort.Name = "BubbleSort";
+            this.BubbleSort.Size = new System.Drawing.Size(75, 23);
+            this.BubbleSort.TabIndex = 0;
+            this.BubbleSort.Text = "BubbleSort";
+            this.BubbleSort.UseVisualStyleBackColor = true;
+            this.BubbleSort.Click += new System.EventHandler(this.BubbleSort_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BubbleSort);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -163,7 +163,7 @@
         private System.Windows.Forms.TextBox FillTextBox;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BubbleSort;
     }
 }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace SortAlgorithms
     {
         public VerticalProgressBar ProgressBar { get; private set; }
         public Label label { get; private set; }
-        public int Value { get; set; }
+        public int Value { get; private set; }
 
         public SortedItem(int value, int number)
         {
@@ -30,7 +31,7 @@ namespace SortAlgorithms
             ProgressBar.Minimum = 0;
             ProgressBar.Name = "ProgressBar1" + number;
             ProgressBar.Size = new System.Drawing.Size(18, 104);
-            ProgressBar.Step = 10;
+            ProgressBar.Step = 1;
             ProgressBar.Style = SortAlgorithms.Styles.Classic;
             ProgressBar.TabIndex = number;
             ProgressBar.Value = Value;
@@ -45,6 +46,17 @@ namespace SortAlgorithms
             label.Text = Value.ToString();
         }
 
+        public void SetValue(int value)
+        {
+            Value = value;
+            ProgressBar.Value = value;
+            label.Text = value.ToString();
+        }
+
+        public void SetColor(Color color)
+        {
+            ProgressBar.Color = color;
+        }
         public int CompareTo(object obj)
         {
             if(obj is SortedItem item)
