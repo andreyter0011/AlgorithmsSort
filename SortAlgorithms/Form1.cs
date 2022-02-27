@@ -19,9 +19,9 @@ namespace SortAlgorithms
             {
                 var item = new SortedItem (value, items.Count);
                 items.Add(item);
-                panel3.Controls.Add(item.ProgressBar);
-                panel3.Controls.Add(item.label);
             }
+
+            RefreshItems();
 
             AddTextBox.Text = "";
         }
@@ -31,25 +31,51 @@ namespace SortAlgorithms
             if (int.TryParse(FillTextBox.Text, out int value))
             {
                 var rnd = new Random();
+
                 for (int i = 0; i < value; i++)
                 {
                     var item = new SortedItem(rnd.Next(100), items.Count);
                     items.Add(item);
-                    panel3.Controls.Add(item.ProgressBar);
-                    panel3.Controls.Add(item.label);
                 }
             }
+            
+            RefreshItems();
 
             FillTextBox.Text = "";
         }
 
+        private void DrawItems(List<SortedItem> items)
+        {
+            panel3.Controls.Clear();
+
+            foreach (var item in items)
+            {
+                panel3.Controls.Add(item.ProgressBar);
+                panel3.Controls.Add(item.label);
+            }
+            panel3.Refresh();
+        }
+
+        private void RefreshItems()
+        {
+            foreach(var item in items)
+            {
+                item.Refresh();
+            }
+            DrawItems(items);
+        }
+
         private void BubbleSort_Click(object sender, EventArgs e)
         {
+            RefreshItems();
+
             var bubble = new BubbleSort<SortedItem>(items);
             bubble.CompareEvent += Bubble_CompareEvent;
             bubble.SwopEvent += Bubble_SwopEvent;
-            bubble.Sort();
-            BubbleSort.Enabled = false;
+            var time = bubble.Sort();
+            TimeLabel.Text = "Время: " + time.Seconds;
+            SwopLabel.Text = "Количество обменов: " + bubble.SwopCount;
+            CompareLabel.Text = "Количество сравнений: " + bubble.ComparisonCount;
         }
 
         private void Bubble_CompareEvent(object sender, Tuple<SortedItem, SortedItem> e)

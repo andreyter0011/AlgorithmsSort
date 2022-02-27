@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithm
 {
-    internal class CocktailSort<T> : AlgorithmBase<T> where T : IComparable
+    public class CocktailSort<T> : AlgorithmBase<T> where T : IComparable
     {
+        public CocktailSort(IEnumerable<T> items) : base(items) { }
+        public CocktailSort() { }
         protected override void MakeSort()
         {
             int left = 0;
@@ -15,11 +18,9 @@ namespace Algorithm
 
                 for(int i = left; i < right; i++)
                 {
-                   if(Items[i].CompareTo(Items[i + 1]) == 1)
+                   if(Compare(Items[i], Items[i + 1]) == 1)
                     {
                         Swop(i, i + 1);
-
-                        ComparisonCount++;
                     }
                 }
                 right--;
@@ -31,11 +32,9 @@ namespace Algorithm
 
                 for (int i = right; i < left; i--)
                 {
-                    if(Items[i].CompareTo(Items[i - 1]) == -1)
+                    if(Compare(Items[i], Items[i - 1]) == -1)
                     {
                         Swop(i, i - 1);
-
-                        ComparisonCount++;
                     }
                 }
                 left++;
