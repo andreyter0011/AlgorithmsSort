@@ -41,6 +41,11 @@
             this.TimeLabel = new System.Windows.Forms.Label();
             this.CompareLabel = new System.Windows.Forms.Label();
             this.SwopLabel = new System.Windows.Forms.Label();
+            this.CocktailSort = new System.Windows.Forms.Button();
+            this.InsertSort = new System.Windows.Forms.Button();
+            this.ShellSort = new System.Windows.Forms.Button();
+            this.HeapSort = new System.Windows.Forms.Button();
+            this.TreeSort = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -163,11 +168,66 @@
             this.SwopLabel.TabIndex = 6;
             this.SwopLabel.Text = "Количество обменов:";
             // 
+            // CocktailSort
+            // 
+            this.CocktailSort.Location = new System.Drawing.Point(93, 146);
+            this.CocktailSort.Name = "CocktailSort";
+            this.CocktailSort.Size = new System.Drawing.Size(75, 23);
+            this.CocktailSort.TabIndex = 7;
+            this.CocktailSort.Text = "CocktailSort";
+            this.CocktailSort.UseVisualStyleBackColor = true;
+            this.CocktailSort.Click += new System.EventHandler(this.CocktailSort_Click);
+            // 
+            // InsertSort
+            // 
+            this.InsertSort.Location = new System.Drawing.Point(174, 146);
+            this.InsertSort.Name = "InsertSort";
+            this.InsertSort.Size = new System.Drawing.Size(75, 23);
+            this.InsertSort.TabIndex = 8;
+            this.InsertSort.Text = "InsertSort";
+            this.InsertSort.UseVisualStyleBackColor = true;
+            this.InsertSort.Click += new System.EventHandler(this.InsertSort_Click);
+            // 
+            // ShellSort
+            // 
+            this.ShellSort.Location = new System.Drawing.Point(255, 146);
+            this.ShellSort.Name = "ShellSort";
+            this.ShellSort.Size = new System.Drawing.Size(75, 23);
+            this.ShellSort.TabIndex = 9;
+            this.ShellSort.Text = "ShellSort";
+            this.ShellSort.UseVisualStyleBackColor = true;
+            this.ShellSort.Click += new System.EventHandler(this.ShellSort_Click);
+            // 
+            // HeapSort
+            // 
+            this.HeapSort.Location = new System.Drawing.Point(336, 146);
+            this.HeapSort.Name = "HeapSort";
+            this.HeapSort.Size = new System.Drawing.Size(75, 23);
+            this.HeapSort.TabIndex = 10;
+            this.HeapSort.Text = "HeapSort";
+            this.HeapSort.UseVisualStyleBackColor = true;
+            this.HeapSort.Click += new System.EventHandler(this.HeapSort_Click);
+            // 
+            // TreeSort
+            // 
+            this.TreeSort.Location = new System.Drawing.Point(417, 146);
+            this.TreeSort.Name = "TreeSort";
+            this.TreeSort.Size = new System.Drawing.Size(75, 23);
+            this.TreeSort.TabIndex = 11;
+            this.TreeSort.Text = "TreeSort";
+            this.TreeSort.UseVisualStyleBackColor = true;
+            this.TreeSort.Click += new System.EventHandler(this.TreeSort_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TreeSort);
+            this.Controls.Add(this.HeapSort);
+            this.Controls.Add(this.ShellSort);
+            this.Controls.Add(this.InsertSort);
+            this.Controls.Add(this.CocktailSort);
             this.Controls.Add(this.SwopLabel);
             this.Controls.Add(this.CompareLabel);
             this.Controls.Add(this.TimeLabel);
@@ -201,6 +261,11 @@
         private System.Windows.Forms.Label TimeLabel;
         private System.Windows.Forms.Label CompareLabel;
         private System.Windows.Forms.Label SwopLabel;
+        private System.Windows.Forms.Button CocktailSort;
+        private System.Windows.Forms.Button InsertSort;
+        private System.Windows.Forms.Button ShellSort;
+        private System.Windows.Forms.Button HeapSort;
+        private System.Windows.Forms.Button TreeSort;
     }
 }
 

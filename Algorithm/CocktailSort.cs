@@ -30,7 +30,7 @@ namespace Algorithm
                     break;
                 }
 
-                for (int i = right; i < left; i--)
+                for (int i = right; i > left; i--)
                 {
                     if(Compare(Items[i], Items[i - 1]) == -1)
                     {
